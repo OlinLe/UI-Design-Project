@@ -4,29 +4,27 @@ import Image from 'next/image';
 
 export default function ProdoProject() {
     return (
-        <Layout title="Prodo | Case Study">
+        <Layout title="Pick Seer | Fantasy Football Draft Helper">
             <article className="max-w-4xl mx-auto px-6 py-12">
 
-                {/* Back Button */}
+                {/* --- CHANGED: Back Button points to new /projects page --- */}
                 <div className="mb-8">
-                    <Link href="/#projects" className="text-primary hover:text-white transition-colors">
+                    <Link href="/projects" className="text-primary hover:text-white transition-colors font-medium">
                         ← Back to Projects
                     </Link>
                 </div>
 
                 {/* Header */}
                 <header className="mb-12 border-b border-gray-800 pb-10">
-          <span className="text-blue-400 font-bold tracking-widest text-sm uppercase mb-3 block">
-            UX & Product Design
-          </span>
-                    <h1 className="text-5xl font-extrabold text-white mb-4">Prodo</h1>
+
+                    <h1 className="text-5xl font-extrabold text-white mb-4">Pick Seer</h1>
                     <p className="text-xl text-gray-300 max-w-2xl">
-                        An AI-powered academic planner that helps students turn deadlines into realistic study plans, so they can keep up with school without manually building a schedule.
+                        A smart fantasy assistant that guides your picks, predicts outcomes, and helps you build the strongest draft possible.
                     </p>
                     <div className="mt-4 bg-gray-900 border border-gray-800 rounded-lg p-4 text-gray-500 text-sm text-center">
                         <div className="relative w-full h-72 rounded-lg overflow-hidden">
                             <Image
-                                src="/images/Prodo/ProdoLogo.png" // TODO: add logo image here
+                                src="/images/Prodo/fantasy.png"
                                 alt="Prodo app mockup"
                                 fill
                                 className="object-cover"
@@ -35,34 +33,14 @@ export default function ProdoProject() {
                     </div>
                 </header>
 
-                {/* Project Snapshot */}
-                <section className="mb-12">
-                    <h2 className="text-2xl font-bold text-white mb-4">Project Snapshot</h2>
-                    <div className="grid gap-6 md:grid-cols-3 text-sm text-gray-300 bg-gray-900 border border-gray-800 rounded-xl p-6">
-                        <div>
-                            <span className="block font-semibold text-gray-100 mb-1">Role</span>
-                            <p>Product Strategy · UX Research · Interaction Design</p>
-                        </div>
-                        <div>
-                            <span className="block font-semibold text-gray-100 mb-1">Timeline</span>
-                            <p>Ongoing side project · Multiple design + test cycles</p>
-                        </div>
-                        <div>
-                            <span className="block font-semibold text-gray-100 mb-1">Platform</span>
-                            <p>Mobile & Web · Student-focused</p>
-                        </div>
-                    </div>
-                </section>
-
                 {/* The Problem */}
                 <section className="mb-12">
                     <h2 className="text-2xl font-bold text-white mb-4">The Problem</h2>
                     <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-gray-300 leading-relaxed shadow-lg">
                         <p>
-                            Most calendar apps show when things are due, but they don’t help students decide <em>when</em> to work. I kept hearing the same thing from classmates: “I know my deadlines, I just never plan far enough ahead.”
-                        </p>
-                        <p className="mt-4">
-                            There isn’t a simple way to turn assignments, exams, and projects into a realistic study plan that adapts as your workload and energy change.
+                            Most fantasy players know their league rules and scoring settings, but they struggle with the actual decision-making during drafts. I kept hearing the same thing from friends: “I know who the stars are, I just never know who to pick next.”
+
+                            There isn’t a simple way to turn rankings, projections, and roster needs into clear, real-time draft decisions that adapt as the board changes. Existing tools show stats, but none translate that into confident picks when the pressure is on.
                         </p>
                     </div>
                 </section>
@@ -104,7 +82,6 @@ export default function ProdoProject() {
                         </p>
 
                         <div className="mt-4 bg-gray-900 border border-gray-800 rounded-lg p-4 text-gray-500 text-sm text-center">
-                            {/* TODO: Replace with Prodo empathy map / journey image */}
                             <div className="relative w-full h-64 rounded-md overflow-hidden">
                                 <Image
                                     src="/images/Prodo/HIghFidelity.png"
@@ -130,7 +107,7 @@ export default function ProdoProject() {
                             <div className="flex-1 bg-gray-900 border border-gray-800 rounded-lg p-4">
                                 <div className="relative w-full h-64 rounded-md overflow-hidden">
                                     <Image
-                                        src="/images/Prodo/highfidelity1.png" // TODO: add high-fi screens
+                                        src="/images/Prodo/highfidelity1.png"
                                         alt="Prodo high-fidelity screens"
                                         fill
                                         className="object-cover"
@@ -140,7 +117,7 @@ export default function ProdoProject() {
                             <div className="flex-1 bg-gray-900 border border-gray-800 rounded-lg p-4">
                                 <div className="relative w-full h-64 rounded-md overflow-hidden">
                                     <Image
-                                        src="/images/Prodo/lowFidelity2.png" // TODO: add low-fi / flow diagram
+                                        src="/images/Prodo/lowFidelity2.png"
                                         alt="Prodo early wireframes and flows"
                                         fill
                                         className="object-cover"
@@ -152,7 +129,7 @@ export default function ProdoProject() {
                             <div className="flex-1 bg-gray-900 border border-gray-800 rounded-lg p-4">
                                 <div className="relative w-full h-64 rounded-md overflow-hidden">
                                     <Image
-                                        src="/images/Prodo/calendarHigh.png" // TODO: add high-fi screens
+                                        src="/images/Prodo/calendarHigh.png"
                                         alt="Prodo high-fidelity screens"
                                         fill
                                         className="object-cover"
@@ -162,7 +139,7 @@ export default function ProdoProject() {
                             <div className="flex-1 bg-gray-900 border border-gray-800 rounded-lg p-4">
                                 <div className="relative w-full h-64 rounded-md overflow-hidden">
                                     <Image
-                                        src="/images/Prodo/calendarWire.png" // TODO: add low-fi / flow diagram
+                                        src="/images/Prodo/calendarWire.png"
                                         alt="Prodo early wireframes and flows"
                                         fill
                                         className="object-cover"
