@@ -140,7 +140,7 @@ export default function ProdoProject() {
                             <div className="flex-1 bg-gray-900 border border-gray-800 rounded-lg p-4">
                                 <div className="relative w-full h-64 rounded-md overflow-hidden">
                                     <Image
-                                        src="/images/Prodo/lowfidelity2.png" // TODO: add low-fi / flow diagram
+                                        src="/images/Prodo/lowFidelity2.png" // TODO: add low-fi / flow diagram
                                         alt="Prodo early wireframes and flows"
                                         fill
                                         className="object-cover"
