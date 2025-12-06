@@ -1,22 +1,9 @@
-export interface ProjectProcess {
-    sketches: string;
-    brainstorming: string;
-    surveys: string;
-    empathyMaps: string;
-    prototypes: string;
-    userTesting: string;
-    heuristics: string;
-}
-
 export interface Project {
     id: string;
-    slug: string;
+    slug: string;     // Must match the filename in pages/projects/
     title: string;
-    summary: string;
-    role: string;
-    isCourseProject: boolean;
-    problem: string;
-    tools: string[];
-    process: ProjectProcess;
-    outcome: string;
+    summary: string;  // Short description for the card
+    role: string;     // e.g. "UX Researcher"
+    isCourseProject: boolean; // Triggers the "Course Project" badge
+    images: string[]; // Array of image paths (we use images[0] for the cover)
 }

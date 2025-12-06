@@ -10,13 +10,13 @@ export default function Footer() {
                 <div className="flex justify-center space-x-6 mb-8">
                     {/* TODO: Update these links with your actual URLs */}
                     <a
-                        href="riggsgorby@example.com"
+                        href="riggsgorby@gmail.com"
                         className="text-primary hover:underline transition-all"
                     >
                         Email Me
                     </a>
                     <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/riggs-gorby-201995324/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline transition-all"
@@ -24,7 +24,7 @@ export default function Footer() {
                         LinkedIn
                     </a>
                     <a
-                        href="https://github.com"
+                        href="https://github.com/rgorby43"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline transition-all"
@@ -33,7 +33,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <p className="text-sm text-gray-400">
-                    © {new Date().getFullYear()} Your Name. All rights reserved.
+                    © {new Date().getFullYear()} Riggs Gorby.
                 </p>
             </div>
         </footer>

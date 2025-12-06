@@ -7,14 +7,13 @@ html {
 }
 
 body {
-    @apply text-gray-800 bg-white;
+    @apply text-gray-300 bg-gray-900;
 }
 
 h1, h2, h3, h4 {
-    @apply font-bold text-dark;
+    @apply font-bold text-white;
 }
 
-/* Custom placeholder style for image areas */
 .image-placeholder {
-    @apply w-full h-64 bg-gray-200 border-2 border-dashed border-gray-400 rounded-lg flex items-center justify-center text-gray-500 font-medium p-4 text-center;
+    @apply w-full h-64 bg-gray-800 border-2 border-dashed border-gray-600 rounded-lg flex items-center justify-center text-gray-400 font-medium p-4 text-center;
 }
