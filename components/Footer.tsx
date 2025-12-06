@@ -4,19 +4,18 @@ export default function Footer() {
     return (
         <footer className="bg-gray-50 border-t border-gray-200 py-12 mt-20">
             <div className="max-w-5xl mx-auto px-6 text-center">
-                <p className="text-gray-600 mb-4">
+                <p className="text-green-600 mb-4">
                     Designed & Built with Next.js and Tailwind CSS.
                 </p>
                 <div className="flex justify-center space-x-6 mb-8">
-                    {/* TODO: Update these links with your actual URLs */}
                     <a
-                        href="riggsgorby@gmail.com"
+                        href="mailto:leiglando@gmail.com"
                         className="text-primary hover:underline transition-all"
                     >
                         Email Me
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/riggs-gorby-201995324/"
+                        href="https://www.linkedin.com/in/olin-leigland-555105176/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline transition-all"
@@ -24,7 +23,7 @@ export default function Footer() {
                         LinkedIn
                     </a>
                     <a
-                        href="https://github.com/rgorby43"
+                        href="https://github.com/OlinLe"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline transition-all"

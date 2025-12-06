@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    @apply text-gray-300 bg-gray-900;
+    @apply text-green-300 bg-green-950;
 }
 
 h1, h2, h3, h4 {
@@ -15,5 +15,5 @@ h1, h2, h3, h4 {
 }
 
 .image-placeholder {
-    @apply w-full h-64 bg-gray-800 border-2 border-dashed border-gray-600 rounded-lg flex items-center justify-center text-gray-400 font-medium p-4 text-center;
+    @apply w-full h-64 bg-green-800 border-2 border-dashed border-green-600 rounded-lg flex items-center justify-center text-gray-400 font-medium p-4 text-center;
 }

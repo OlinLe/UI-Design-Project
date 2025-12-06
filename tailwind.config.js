@@ -8,7 +8,7 @@ module.exports = {
         extend: {
             colors: {
                 // Professional, accessible color palette
-                primary: '#2563EB', // Accessible Blue
+                primary: '#ffffff', // Accessible Blue
                 dark: '#111827',
                 light: '#F3F4F6',
             },
